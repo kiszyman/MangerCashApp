@@ -1,0 +1,71 @@
+/**********************************************/
+/***										***/
+/*** WARNING:								***/
+/***										***/
+/*** This is an auto-generated file, any	***/
+/*** any changes maually made may result	***/
+/*** in data loss upon redployment via the	***/
+/*** BST.									***/
+/**********************************************/
+
+/*** Stylehseet used to setup the color schema ***/
+/*** Begin main framework layout styles ***/
+        html, body
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        .modal-overlay
+        {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background: #D9D9D9;
+            opacity: .75;
+            filter: alpha(opacity=75);
+            -moz-opacity: 0.75;
+            z-index: 101;
+        }
+
+        * html .modal-overlay
+        {
+            position: absolute;
+            height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight +        'px' );
+        }
+
+        .modal-window
+        {
+            position: fixed;
+            top: 54%;
+            left: 27%;
+            margin: 0;
+            padding: 0;
+            z-index: 102;
+        }
+
+        * html .modal-window
+        {
+            position: absolute;
+        }
+
+        .close-window
+        {
+            display:block;
+        	position:relative;
+            width: 30px;
+            height: 15px;
+            background-image: url('../images/close_over.gif' ) ;
+            overflow: hidden;
+            cursor: pointer;
+            background-position: left middle;
+            background-repeat:no-repeat
+        }
+
+/*** End general page styles ***/

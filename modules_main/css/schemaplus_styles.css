@@ -1,0 +1,240 @@
+/* CSS Document */
+/*** Stylehseet used to setup the color schema ***/
+/*** OVER AND ABOVE pageSchema_2_0.css
+/*** BRAND: identifies the tag in BrandingInformation.xml
+/*****************************/
+
+/* No border on header banner */
+#header_banner
+{
+	border: none;
+}
+
+/* Solid border on signin pages */
+/* BRAND: border-bottom=BannerBorderColor */
+.header_banner_signin
+{
+	border-bottom: solid 2px #a8a9ad;
+}
+
+/* Syle for the product name text in the header */
+/* BRAND: color=UtilityTextForeground */
+.banner_product_text
+{
+	font-weight: bold;
+	padding-right: 6px;
+	color: #15337B; /* Product name text color */
+}
+
+/* Style for the utility links in the upper right portion of the header */
+/* BRAND: color=UtilityLinkForeground */
+ul.utilityLinks, ul.utilityLinks li.normalUtilityLink a, ul.utilityLinks li.lastUtilityLink a
+{
+	color: #000000; /*Text color */
+}
+
+/* The right border is the vertical line between the links */
+/* BRAND: border-right=UtilityLinkForeground */
+ul.utilityLinks li.normalUtilityLink a
+{
+	border-right: 1px solid #000000; /* Right border color */
+}
+
+/* No border on the far right side */
+ul.utilityLinks li.lastUtilityLink
+{
+	font-weight: bold;
+}
+
+/* Styles for the Main Menu tabs*/
+ul.BIB-Menu
+{
+	border: none;
+}
+
+/* Style for the unselected tabs */
+/* BRAND: color=SubMenuText */
+/* BRAND: background-color=SubMenuBackground */
+ul.BIB-Menu li a, ul.BIB-Menu li.BIB-Menu-tabSelected a
+{
+	border: 1px solid #a8a9ad; /* Tab border */
+	font-size: 10pt;
+	margin: 2px;
+	font-weight: normal;
+	color: #000000; /* Tab text color, same as BIB-Menu-Sub-Content... text color */
+	background-color: #C9B281; /* Background color for unselected tab */
+}
+
+/* Style for the selected tab */
+/* (Color the background the same as BIB-Menu-Sub-Content...) */
+/* BRAND: color=NavigationText */
+/* BRAND: background-color=NavigationMenuBackground */
+ul.BIB-Menu li.BIB-Menu-tabSelected a
+{
+	border-bottom: none;
+	font-weight: bold;
+	color: #FFFFFF; /* Text color for selected tab */
+	background-color: #A20000; /* Background color for selected tab*/
+}
+
+/* Style for the tab when the mouse hovers over it */
+ul.BIB-Menu li a:hover
+{
+	font-weight: normal;
+}
+
+/* Style for the submenu items */
+/* (Color the same as BIB-Menu-tabSelected) */
+/* BRAND: color=NavigationText */
+/* BRAND: background-color=NavigationMenuBackground */
+#BIB-Menu-Sub-Content, #BIB-Menu-Sub-Content-None, #BIB-Menu-Sub-Content ul li a,
+#BIB-Menu-Sub-Content ul li.BIB-Menu-Sub-Content-Selected a,
+#BIB-Menu-Sub-Content ul li.BIB-Menu-Sub-Content-Selected-Last a
+{
+	font-size: 10pt;
+	font-weight: normal;
+	color: #FFFFFF; /* Sub Content text color */
+	border-color: #a8a9ad;
+	background-color: #A20000; /* Sub Content background color */
+}
+
+/* BRAND: border-right=NavigationText */
+#BIB-Menu-Sub-Content ul li a,
+#BIB-Menu-Sub-Content ul li.BIB-Menu-Sub-Content-Selected a
+{
+	border-right: 1 px solid #FFFFFF;
+}
+
+/* Style for the left menu */
+/* BRAND: background-color=NavigationBackground */
+#cell_menu_nav
+{
+	background-color: #FFFFFF;
+	border-right: 1px solid #a8a9ad;
+	font-size: 10pt;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+/* Style for the text in the left menu */
+/* BRAND: color=SubMenuText */
+span.leftContentListHeader, span.leftContentListHeader a, ul.leftContentList li a,
+ul.leftContentListNav, ul.leftContentListNav li a
+{
+	color: #565A5C;
+}
+
+/* Style for the selected nav function in the left menu */
+/* BRAND: color=PageTitleText */
+.divFunctionsNav ul.leftContentListNav li.leftContentListNavSelected,
+.divFunctionsNav ul.leftContentListNav li.leftContentListNavSelected a
+{
+	font-weight: bold;
+	color: #A20000;  /* color of selected left nav function */
+}
+
+/* Style for the right menu */
+.cell_content_right
+{
+	background-color: #ffffff;
+}
+
+/* Style for the right menu info boxes */
+/* BRAND: background-color=TableRowDarkBackground */
+#cell_content_info, #cell_content_info_alt
+{
+	border: 1px solid #a8a9ad;
+	color: #000000;
+	background-color: #EFE9DA;
+	width: 140px;
+}
+
+/* Style for the right menu info boxes with alternate background color */
+/* BRAND: background-color=TableRowLightBackground */
+#cell_content_info_alt
+{
+	background-color: #ffffff;
+}
+
+/* Checking and Savings subheader style and subtotal styles in reports */
+/* BRAND: color=ReportSubheaderForeground */
+/* BRAND: background-color=ReportSubheaderBackground */
+.tableInnerHeader
+{
+	font-family: Arial;
+	font-weight: bolder;
+	font-size: 10pt;
+	color: #000000; /*Text color*/
+	background-color: #ffffff; /* Inner header background color*/
+}
+
+/* Size and Style of inactive links */
+.inactive_link
+{
+	font-family: Arial;
+	font-size: 10pt;
+	color: #000000;	/* Sets the color of the inactive link */
+	text-decoration: underline; /* Underlines the inactive link */
+}
+
+/* Color for main body text */
+/* BRAND: color=PageTextForeground */
+.message_detail
+{
+	color: #000000;
+	font-weight: normal;
+}
+
+/* Style for active blue links */
+.default
+{
+	font-size: 10pt;
+	text-decoration: underline; /* Underlines the active link */
+}
+
+/* used with theDateSub function in order to make regular text look */
+/* like it is inside a text box */
+.textBox, #textBoxTable
+{
+    font-family: Arial;
+    font-size: 10pt;
+	border: solid 1px #7f9db9;
+	padding-right:20px;
+}
+
+#textBoxTable
+{
+	padding-right:4px;
+}
+/* use with the text box class to create a look of a text box */
+/* used with theDateSub function in order to make regular text look */
+/* like it is inside a text box */
+.theDateSub
+{
+	padding-right:3px;
+	padding-left:3px
+}
+
+/* Style for glossary and faq */
+.HelpDetail_Subheader
+{
+	font-size: 12pt;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Style for glossary and faq */
+.HelpFaq_DetailList, .HelpFaq_List
+{
+	font-size: 10pt;
+	font-family: Arial;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Style for glossary and faq */
+.HelpFaq_List
+{
+
+	padding-left: 15px;
+}

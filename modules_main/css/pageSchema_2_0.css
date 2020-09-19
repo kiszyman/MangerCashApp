@@ -1,0 +1,137 @@
+/**********************************************/
+/***										***/
+/*** WARNING:								***/
+/***										***/
+/*** This is an auto-generated file, any	***/
+/*** any changes maually made may result	***/
+/*** in data loss upon redployment via the	***/
+/*** BST.									***/
+/**********************************************/
+
+/*** Stylehseet used to setup the color schema ***/
+/*** Begin main framework layout styles ***/
+#layout_body
+{
+	background-color: #ffffff;
+}
+
+#header_banner
+{
+	background-color: #FFFFFF;
+	border-bottom-color: #a8a9ad;
+	border-bottom-width: 2;
+}
+
+.header_banner_left
+{
+	background-color: #FFFFFF;
+}
+
+.header_banner_right
+{
+	background-color: #FFFFFF;
+}
+/*** End main framework layout ***/
+
+/*** Begin content styles ***/
+#cell_content
+{
+	background-color: #ffffff;
+}
+
+#content_title_text
+{
+	color: #15337B;
+}
+/*** End content styles ***/
+
+/*** Begin general page styles ***/
+/* Standard DataGrid Header style */
+.dgHeader, .dgHeader_border
+{
+    color: #000000;
+    background-color: #8E908F;
+}
+
+/* Header Cell Style */
+.dgHeader td, .dgHeader th
+{
+	border-top-color: #a8a9ad;
+}
+
+/* Cell Style */
+.dgGrid td, .dgGrid th
+{
+	border-bottom-color: #a8a9ad;
+}
+
+/* Item Style */
+.dgItem0, .dgItem0_border
+{
+    background-color: #FFFFFF;
+}
+
+/* Alternating Item Style */
+.dgItem1
+{
+    background-color: #CCCCCC;
+}
+
+/* Standard DataGrid Sort Link style: All Sortable column headers */
+.dgSortLink
+{
+    color: #000000;
+}
+
+/* Standard DataGrid Cell Link style: EDIT button on Admin / RenameAccount page */
+.dgCellLink
+{
+	color: #15337B;
+}
+
+a.default
+{
+	color: #15337B;
+}
+
+a.default:visited
+{
+	color: #15337B;
+}
+
+a.default:hover
+{
+	color: #8E908F;
+}
+
+/* Normal page text and informational text: Top of page */
+.message_detail, .message_status
+{
+    color: #000000;
+}
+
+/* Error text: Top of page and field validation */
+.message_error
+{
+    color: #ff0000;
+}
+
+/* Section headers for content */
+.subheader
+{
+    color: #15337B;
+}
+
+/* Section headers for page elements */
+.subheader_detail
+{
+    color: #15337B;
+}
+
+/* Help page styles */
+.HelpTopic
+{
+    color: #15337B;
+}
+
+/*** End general page styles ***/

@@ -1,0 +1,403 @@
+/*** Stylehseet used to setup the page layout ***/
+/*** Begin main framework styles ***/
+html, body
+{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+	font-family: Arial;
+}
+
+#layout_body
+{
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	font-family: Arial;
+}
+
+#header_banner
+{
+	padding: 0px;
+	border-bottom: solid;
+}
+
+#table_main
+{
+	height: 100%;
+	margin: 0;
+}
+
+#cell_content_content
+{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+}
+
+.cell_content_right
+{
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+#content_title_text
+{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 18pt;
+	padding: 15px 0px 10px 0px;
+}
+
+#cell_content_area
+{
+	padding: 0px 0px 0px 0px;
+}
+
+#cell_status_text
+{
+	padding: 4px 0px 0px 0px;
+}
+
+#cell_instruction
+{
+	padding: 0px 0px 0px 0px;
+}
+
+#cell_button_area
+{
+	/*padding: 0px 0px 25px 0px;*/
+}
+
+#page_actions_text
+{
+	padding: 7px 7px 0px 0px;
+}
+/*** End main framework layout ***/
+
+/*** Begin datagrid styles ***/
+/* Standard datagrid header style */
+
+
+/* Header cell style
+.dgHeader td, .dgHeader th
+{
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.dgHeaderWithBottom td, .dgHeaderWithBottom th
+{
+              border-top-style: solid;
+ 	border-top-width: 1px;
+              border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+ Table cell Style
+.dgGrid td, .dgGrid th
+{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+
+}
+
+/* Table cell Style - used to negate any border/other styles set in "dgGrid" cells (above) since just one border per cell is desired
+.dgGridInnerTable td
+{
+	border-bottom-style: none;
+}
+
+/* Item style */
+
+
+/* Alternating item style */
+
+
+/* Standard datagrid sort link style: sortable column headers */
+
+
+/* Standard datagrid cell link style */
+
+.dgHeader, .dgHeader_border {
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bolder;
+}
+.dgHeader td, .dgHeader th {
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+.dgGrid td, .dgGrid th {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.dgGridInnerTable td {
+    border-bottom-style: none;
+}
+.dgItem0, .dgItem0_border {
+    font-family: Arial;
+    font-size: 10pt;
+}
+.dgItem1 {
+    font-family: Arial;
+    font-size: 10pt;
+}
+.dgSortLink {
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/*** End datagrid styles ***/
+
+/*** Begin page element styles ***/
+/* Styles the links on the navigation menu */
+a, a:visited, a:hover
+{
+	font-family: Arial;
+	text-decoration: none;
+}
+
+/* All general links */
+a.default, a.default:visited, a.default:hover
+{
+	font-family: Arial;
+	font-size: 10pt;
+	text-decoration: underline;
+}
+
+/* All general select lists */
+select
+{
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+/* All general inputs: buttons, textboxes, etc. */
+input
+{
+    font-family: Arial;
+    font-size: 10pt;
+}
+/*** End page element styles ***/
+
+/*** Begin custom page styles ***/
+/* All labels on entry forms */
+.form_label, .form_label_bold
+{
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+.form_label_bold
+{
+    font-weight: bolder;
+}
+
+/* Standard body text */
+.message_detail
+{
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+/* Informational text */
+.message_status
+{
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 10pt;
+}
+
+/* Error text field validation */
+.message_error
+{
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 10pt;
+}
+
+/* Section headers for content and banner product name */
+.subheader, banner_product_text
+{
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 13pt;
+}
+
+.banner_product_text
+{
+	margin-right: 3px;
+}
+
+/* Section headers for page elements */
+.subheader_detail
+{
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 10pt;
+}
+
+/* Set top and bottom margins for "subheader" horizontal rule */
+.subheader_hr
+{
+	margin-bottom: 8px;
+}
+
+.input_instructions
+{
+    font-family: Arial;
+    font-size: 8pt;
+}
+
+/* Used to provide a general solid border */
+.general_border
+{
+    border: solid 1px #000000;
+}
+/*** End custom page styles ***/
+
+/*** Begin help page styles ***/
+.HelpTopic
+{
+    font-size: 14pt;
+    font-weight: bold
+}
+
+.HelpDetail
+{
+    font-size: 10pt
+}
+/*** End help page styles ***/
+
+/* Utility link styles */
+ul.utilityLinks
+{
+    padding: 0;
+    margin-top: 5px;
+    list-style-type: none;
+    font-size: 70%;
+}
+
+ul.utilityLinks li
+{
+    display: inline;
+    margin: 0;
+}
+
+ul.utilityLinks li a, ul.utilityLinks li a:hover,
+ul.utilityLinks li.lastUtilityLink a, ul.utilityLinks li.lastUtilityLink a:hover,
+ul.utilityLinks li.normalUtilityLink a, ul.utilityLinks li.normalUtilityLink a:hover
+{
+    padding: 0 10px 0px 8px;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 8pt;
+    cursor: pointer;
+    border-right: 1px solid;
+}
+
+ul.utilityLinks li.lastUtilityLink a, ul.utilityLinks li.lastUtilityLink a:hover
+{
+    border-right: none;
+}
+
+ul.utilityLinks li a:hover, ul.utilityLinks li.lastUtilityLink a:hover, ul.utilityLinks li.normalUtilityLink a:hover
+{
+	text-decoration: underline;
+}
+
+
+/* End utility link styles */
+
+/* Left content list styles */
+.divContentList
+{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+span.leftContentListHeader, span.leftContentListHeader a, span.leftContentListHeader a:visited
+{
+    margin: 0;
+    padding: 0;
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+span.leftContentListHeader a:hover
+{
+    text-decoration: underline;
+}
+
+ul.leftContentList
+{
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+    list-style-type: none;
+}
+
+ul.leftContentList li, ul.leftContentList li a, ul.leftContentList li a:hover,
+ul.leftContentList li a:visited
+{
+    padding: 5px 0 0 0;
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+ul.leftContentList li a
+{
+	text-decoration: none;
+}
+
+ul.leftContentList li a:hover
+{
+	text-decoration: underline;
+}
+
+.divFunctionsNav
+{
+	margin: 0;
+    margin-bottom: 10px;
+    padding: 5px 0 10px 0;
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+ul.leftContentListNav
+{
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+    list-style-type: none;
+}
+
+ul.leftContentListNav li, ul.leftContentListNav li a, ul.leftContentListNav li a:hover,
+ul.leftContentListNav li a:visited, ul.leftContentListNav li.selected, ul.leftContentListNav li.selected a,
+ul.leftContentListNav li.selected a:hover, ul.leftContentListNav li.selected a:visited
+{
+    padding: 5px 0 0 0;
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+ul.leftContentListNav li.selected, ul.leftContentListNav li.selected a,
+ul.leftContentListNav li.selected a:hover, ul.leftContentListNav li.selected a:visited
+{
+	font-weight: bold;
+}
+
+ul.leftContentListNav li a:hover, ul.leftContentListNav li.selected a:hover
+{
+	text-decoration: underline;
+}
+
+/* End left content styles */

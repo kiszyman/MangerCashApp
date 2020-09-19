@@ -1,0 +1,157 @@
+// modules.txt
+// input file to mainMenu function
+// data is used to display menu options in the main menu, removing items from this array will
+// make the corresponding menu option in the demo hidden.
+// Welcome Menu         = 'welcome'
+// Statements		= 'statements'
+// Account Reporting    = 'account'
+// Funds Transfer       = 'funds'
+// Express Transfer     = 'express'
+// Enhanced Bill Pay	= 'billpay'
+// Bill Payment         = 'bill'
+// Bill Setup           = 'billsetup'
+// Book Transfer  	= 'book'
+// Enhanced ACH		= 'ach'
+// File Upload          = 'fileup'
+// File Download        = 'filedown'
+// Wire                 = 'wiremain'
+// Incoming Wire Report = 'inwirerpt'
+// Pos Pay         	= 'opositive'
+// Positive Pay 	= 'positive'
+// Service Administration = 'positive'
+// Stop Payment         = 'stop'
+// CD Account		= 'cdaccount'
+// Investment Account	= 'investmentaccount'
+// Enhanced Loan	= 'loan'
+// Customer Support     = 'custsupport'
+// Administration       = 'admin'
+// Reporting            = 'reporting'
+// Credit Card Reports	= 'cardrpt'
+// Credit Card Payments = 'cardpay'
+// Full Account Recon   = 'fullrecon'
+// Partial Acct Recon   = 'partrecon'
+// Deposit Acct Recon   = 'deprecon'
+// Check Reorder	= 'chkreorder'
+// Quickbooks		= 'quickbooks'
+// Quicken		= 'quicken'
+// MSMoney		= 'msmoney'
+// Remote Deposit Capture = 'capturerdc'
+// Schedule Requests	= 'schedule'
+// Micro Reporting	= 'microreporting'
+// Investment reporting	= 'investmentreporting'
+// Integrated payables	= 'integratedpayables'
+// Multiple Approvals	= 'multipleapprovals'
+// Token Approval       = 'tokenapproval'
+// Splash Page           ='splashpage'
+// Deposit Account Reporting	= 'largereporting'
+// Deposit Reporting	= 'midreporting'
+//Reg DD	= 'regdd'
+//Rewards = 'rewards'
+//Positive Pay Issue Maintenance ='pospayissue'
+//Positive Pay Exception Maintenance = 'pospayexception'
+//ACH Positive Pay ='achpospay'
+//Common Entry System ='commonentry'
+//Premium Alerts ='premium'
+//Dashboard = 'dashboard'
+//Image Search		= 'image'
+//Payee Positive Pay = 'payeepospay'
+//Reverse Positive Pay = 'revpospay'
+
+record1 = ["welcome","largereporting","regdd","quickbooks","express","book","ach","funds","wiremain","filedown","statements","inwirerpt","billpay","stop","positive","fullrecon","admin","custsupport","cdaccount","schedule","pospayexception","pospayissue","multipleapprovals","payeepospay"]
+//revpospay
+// input file to subMenu function for Loan
+// data is used to display menu options in the Loan sub-menu, removing items from this array will
+// make the corresponding Loan option in the demo hidden.
+// Summary Report		= 'summary'
+// Activity Report		= 'activity'
+// History Report		= 'history'
+// Payment Request		= 'payment'
+// Advance Request		= 'advance'
+// Transmit			= 'transmit'
+//
+record2 = ["summary","activity","history","transmit"]
+
+// input file to subMenu function for Wire
+// data is used to display menu options in the Wire sub-menu, removing items from this array will
+// make the corresponding Wire option in the demo hidden.
+// Repetitive Wire Entry		= 'repetitive'
+// Freeform Wire Entry			= 'freeform'
+// Wire History				= 'history'
+// Transmit Wire			= 'transmit'
+// Wire Template Setup			= 'setup'
+//
+record3 = ["repetitive","freeform","history","transmit","setup"]
+
+// input file to subMenu function for ACH
+// data is used to display menu options in the ACH sub-menu, removing items from this array will
+// make the corresponding ACH option in the demo hidden.
+// PPD Payment			= 'payment'
+// CCD Collection		= 'collection'
+// PPD Collection		= 'ppdcoll'
+// CCD Payment			= 'ccdpay'
+// Federal Tax			= 'federal'
+// State Tax			= 'state'
+// Child Support Payment 	= 'child'
+// STP 820 Payment		= 'stp820'
+// IAT Payment			= 'iat'
+// IAT Collection		= 'iatcoll'
+// Corporate Trade Exchange Payment	= 'ctx'
+// Corporate Trade Exchange Collection 	= 'ctxcoll'
+// ACH Transmit			= 'transmit'
+// ACH History			= 'history'
+// ACH File Upload		= 'upload'
+// WEB Collection		= 'webcoll'
+// TEL Collection		= 'telcoll'
+
+
+record4 = ["collection","payment","ppdcoll","ccdpay","iat","iatcoll","ctx","ctxcoll","federal","state","transmit","history","upload"]
+
+
+// input file to account types to be displayed in Statements
+// data is used to display account types in the Statements screens, removing items from this array will
+// make the corresponding account type accounts in the statement screens  in the demo hidden.
+//Checking	= 'checking'
+// Saving		= 'saving'
+// Analysis	= 'analysis'
+// Loan		= 'loan'
+
+record5 = ["checking","saving","loan"]
+
+// input file to services to be displayed under Common Entry System
+// data is used to display  services  in the Common Entry System, removing items from this array will
+// make the corresponding services   in the demo hidden.
+//ExternalReporting	= 'externalservices'
+//Widgets	= 'widgetsdashboard'
+
+record6 = ["externalservices"]
+
+
+
+
+//input file for displaying saved reports
+//Controlled Disbursement Report ='controlled'
+//Operating Account ACH/WT Credits ='operating_ach'
+//Operating Account Checks Paid  ='operating_checks'
+
+saved_reports=["controlled","operating_ach","operating_checks","scheduled"]
+
+
+//For downloadable reports
+
+Report_download = ["edi_report","paid_file","intpay997","intpay824","deposit_stmt","corporate_report","return_items_report"]
+
+
+
+//To handle the number of months displayed on positive pay issue status report criteria, Stale issues report criteria,Outstanding Issues report Criteria and //decisions report criteria
+
+//Always give a space after the number
+positivepay_text =["18 "]
+
+
+
+//StopPayment Text - Write the text below so that it appears on the screen on the stop payment page
+Stop_payment_text = [''];
+
+
+//Statements and Documents - Delivery Preferences can be made customizable by adding them in the record below
+Statements_DeliveryOptions = ['Paper','Online','Online & Paper'];

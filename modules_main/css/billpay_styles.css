@@ -1,0 +1,192 @@
+/* CSS Document */
+/*** Stylehseet used to setup the color schema ***/
+/*** for the enhanced Bill Pay pages
+/*****************************/
+/*****************************/
+#billpay_border_header
+/* BRAND: background-color=BannerBackground */
+/* BRAND: border-color=BannerBorderColor */
+{
+ background-color: #ffffff; /* Changes the background color of the header */
+ border-width:5px;
+ border-color:#a8a9ad;
+ border-style:solid;
+ border-right-width:0; /*Hides the right border*/
+ border-left-width:0; /*Hides the left border*/
+ border-top-width:0; /*Hides the top border*/
+ border-bottom-width:0; /* Uncomment the border-bottom-width:0 statement if you */
+ 						/* don't want the black line below the header to be displayed */
+}
+
+/* BRAND: background-color=BannerBackground */
+/* BRAND: color=UtilityLinkForeground */
+/* BRAND: border-right=UtilityLinkForeground */
+.bp_UtilityLink, .bp_LastUtilityLink
+{
+	background-color:#ffffff;
+	color:#000000;
+	font-family:Arial;
+	font-size:9pt;
+	border-right:1px solid #393939;
+	padding: 0px 7px 0px 6px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.bp_LastUtilityLink
+{
+	font-weight:normal;
+	border-right:none;
+}
+
+/* Style for the left nav */
+/* Branded color is for the section titles */
+/* BRAND: color=PageTitleText */
+/* BRAND: border-color=BannerBorderColor */
+#billpay_navigation,{
+	color:#A20000;
+	background-color:#ffffff;
+	width:175px;	   /* width of the navigation menu */
+	font-family:Arial;
+	font-size:8pt; /*Text size*/
+	font-weight:bold;
+	font-style:normal;
+	height:100%;
+	border-width:2px;
+ 	border-color:#a8a9ad;
+ 	border-style:solid;
+ 	/* border-right-width:0; */  /*Hides the right border*/
+	border-left-width:0; /*Hides the left border*/
+ 	border-top-width:0; /*Hides the top border*/
+ 	border-bottom-width:0;
+}
+
+#billpay_navigation #billpay_navMainAlign
+{
+	padding-top:5px;  /* position of menu options from top */
+	padding-left:5px; /* position of menu options from left */
+}
+
+/* Branded color is for the Help and Exit titles */
+/* BRAND: color=PageTitleText */
+#billpay_navMainAlign td, #billpay_navMainAlign td a
+{
+	color:#A20000;
+}
+
+#billpay_subMenu
+{
+	padding-left:15px; /* position of menu options from left */
+					       /* (ie: padding is added to original padding set in the Navigation DIV) */
+	font-family:arial;
+	font-weight:normal;
+	font-style:normal;
+	/* text-decoration:none */
+}
+/* Style for the left nav menu options*/
+/* BRAND: color=SubMenuText */
+#billpay_subMenu a
+{
+	color:#000000; /* color of menu links */
+   /*	text-decoration:none;  */ /* Stops the underline of text that is automatically applied to an "A" tag */
+	line-height:18px; /* creates spacing between menu links */
+	text-decoration:none;
+	font-size:9pt;
+}
+#billpay_subMenu a:hover
+{
+
+	text-decoration:underline;
+
+}
+#billpay_main_content_align
+{
+	padding-top:5px; /* Adjust space between the Header and the Main content */
+	padding-left:30px; /* Adjust the space between the Navigation and the Main content */
+}
+
+/* Billpay subtotal style */
+/* BRAND: background-color=ReportSubheaderBackground */
+.tableSubTotal
+{
+	background-color: #ffffff; /*Subtotal row color*/
+	font-family: Arial;
+   font-weight: normal;
+   font-size: 10pt;
+}
+
+#billpay_faq_navigation,{
+	background-color:#ffffff;
+	width:150px;	   /* width of the navigation menu */
+	font-family:Arial;
+	font-size:10pt; /*Text size*/
+	font-weight:bold;
+	font-style:normal;
+	height:100%;
+	border-width:1px;
+ 	border-color:#C0C0C0;
+ 	border-style:solid;
+ 	/* border-right-width:0; */  /*Hides the right border*/
+	border-left-width:0; /*Hides the left border*/
+ 	border-top-width:0; /*Hides the top border*/
+ 	border-bottom-width:0;
+}
+
+#billpay_faq_navigation #billpay_faq_navMainAlign {
+	padding-top:20px;  /* position of menu options from top */
+	padding-left:5px; /* position of menu options from left */
+}
+
+#billpay_faq_navigation a
+{
+	color:#000000; /* color of menu links */
+   /*	text-decoration:none; */ /* Stops the underline of text that is automatically applied to an "A" tag */
+	line-height:23px; /* creates spacing between menu links */
+}
+
+#billpay_faq_subMenu
+{
+	padding-left:15px; /* position of menu options from left */
+					       /* (ie: padding is added to original padding set in the Navigation DIV) */
+	font-family:arial;
+	font-size:10pt; /*Text size*/
+	font-weight:normal;
+	font-style:normal;
+	/* text-decoration:none */
+}
+
+#billpay_faq_subMenu a
+{
+	color:#000000; /* color of menu links */
+   /*	text-decoration:none;  */ /* Stops the underline of text that is automatically applied to an "A" tag */
+	line-height:24px; /* creates spacing between menu links */
+}
+
+#billpay_faq_main_content_align
+{
+	padding-top:5px; /* Adjust space between the Header and the Main content */
+	padding-left:10px; /* Adjust the space between the Navigation and the Main content */
+}
+
+.billpay_faq_links
+{
+    font-family:Arial; /* Sets the font of main content text */
+    font-size: 10pt; /* Sets the size of all the main content text */
+    padding-left: 25pt;  /* Sets indentation for the links */
+    margin-top: 0pt;
+    margin-bottom: 6pt;
+}
+
+.billpay_titles
+{
+    font-family:Arial; /* Sets the font of main content text */
+    font-size: 13.6pt; /* Sets the size of all the main content text */
+    font-weight:bold;
+}
+
+.billpay_subheader
+{
+    font-family:Arial; /* Sets the font of main content text */
+    font-size: 11.6pt; /* Sets the size of all the main content text */
+    font-weight:bold;
+}

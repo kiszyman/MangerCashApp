@@ -1,0 +1,102 @@
+// properties.txt
+
+//Determine which file will be used for the logo
+//logo = ["sample-bank-green-sm.gif"];
+logo = ["TotalCashManager_Logo_209x85.gif"];
+
+//determine which file will be used for the Bill Pay logo
+billpaylogo = ["TotalCashManager_Logo_209x85.gif"];
+//billpaylogo = ["sample-bank-green-sm.gif"];
+
+//determing which file will be used for the Remote Deposit Capture logo
+rdclogo = ["TotalCashManager_Logo_209x85.gif"];
+//rdclogo = ["sample-bank-green-sm.gif"];
+
+//determine the product name in the header, sing on pages and Welcome page
+product = ["Total Cash® Manager"]
+
+//Determine which file will be used for the banner
+//banner = ["blank.gif"];
+banner = ["blank.gif"];
+
+//Determine which files and captions will be used for the graphics on the landing page
+//Comment any graph and associated text if not desired
+//The graphs and text can be rearranged in the order desired
+//For instance, graph0 = ["main_graph_2.gif"] and text0 = ["NACHA"], etc.
+//graph0 = ["blank.gif"];
+//text0 = [""];
+
+//graph1 = ["blank.gif"];
+//text1 = [""];
+
+//graph2 = ["blank.gif"];
+//text2 = [""];
+
+//graph3 = ["blank.gif"];
+//text3 = [""];
+
+//Landing page content (modules_main.html)
+//Select if the demo will be a corporate demo or a small business demo.
+//1. If you want to display the landing page for corporate version
+//uncomment accounttype = ["accountreporting"]
+//2. If you want to display the landing page for small business
+//uncomment accounttype = ["reporting"]
+
+accounttype = ["accountreporting"];  //configure landing page for corporation version
+//accounttype = ["reporting"];		//configure landing page for small business
+
+///////////////////////////////////////////////////
+//SA Login ////////////////////////////////////////
+///////////////////////////////////////////////////
+
+//Determine whether you want to display the SA enrollment pages or not.
+//1. If you do not want to display the SA enrollment screens uncomment the
+//first login option loginpage = ["../modules_main/modules_main.html"]
+//2. If you want to display the SA enrollment screens uncomment the
+//second login option loginpage = ["../signIn/sa_signup1.html"]
+
+
+//loginpage = ["../modules_main/modules_main.html"];	 	//Do not View Enrollment in SA Pages
+loginpage = ["../signIn/sa_signup1.html"];					//View Enrollment in SA Pages
+
+
+//Determine which password screen to use
+//1. If you want to display the SA active password screen on a registered computer
+//uncomment isreg = ["sa_active_reg.html"]
+//2. If you want to display the SA active password screen on a non registered computer
+//uncomment isreg = ["sa_active_nonreg.html"]
+//3. If you want to display the regular non SA password screen
+//uncomment isreg = ["signin_sa_password.html"]
+
+
+//isreg = ["sa_active_reg.html"]; 		//SA on registered computer
+//isreg = ["signin_active_passcode.html"]; // SA on registered computer for Secure Token login.
+//isreg = ["sa_active_nonreg.html"]; 	    //SA on non-registered computer
+isreg = ["signin_sa_password.html"]; 	//SA off
+
+
+///////////////////////////////////////////////////
+//End SA Login ////////////////////////////////////
+///////////////////////////////////////////////////
+
+
+//branded_messages = ['yes'];
+branded_messages = ['no'];
+
+//standard_branding = ['yes'];
+standard_branding = ['no'];
+
+//title_branding =['yes'];
+title_branding =['no'];
+
+//Yes will be used to show detail calculations for RegDD balance info, else partial info will be shown
+//regDD_calculations = ['yes'];
+regDD_calculations =['no'];
+
+important_message = ['yes'];
+//important_message = ['no'];
+
+
+//Property for Background demo Image
+//Demo_background = ['yes'];
+Demo_background = ['no'];
